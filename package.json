@@ -1,0 +1,22 @@
+{
+  "name": "plateau",
+  "version": "1.0.0",
+  "description": "web site to an org",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youssefaloua/static_web_site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youssefaloua/static_web_site/issues"
+  },
+  "homepage": "https://github.com/youssefaloua/static_web_site#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
