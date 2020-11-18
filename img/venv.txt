@@ -1,0 +1,7 @@
+-----virtual enviroments-----
+---cree l'envirenement:
+python -m venv work_env
+---active l'enviremonet--:
+work_env\scripts\activate.bat
+-------désactiver:
+work_env\sripts\deactivate.bat
