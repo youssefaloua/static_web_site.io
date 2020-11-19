@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #868e96;
+    --gray-dark: #343a40;
+    --primary: #fed136;
+    --secondary: #868e96;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --ahref: #0097F7;
+    --ahref-line: #9bd9ff;
+    --padding: 100px 0 100px 0;
+    --transition: .3s ease-in-out;
+    --shadow: 0 20px 20px rgba(13, 121, 221, 0.185);
+    --shadow02: 0 20px 20px rgba(221, 13, 169, 0.185);
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  }
+body,
+html {
+    font-family: "Poppins" !important;
+    overflow-x: hidden;
+    background-color: var(--white);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+button,
+input {
+    outline: none !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+li a{
+    color:#FEC503;
+    font-weight: 700;
+    font-size:1.5rem;
+    font-family: Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    font-family: Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color:var(--warning)
+  }
+p{
+    font-family: ;
+}
+  
+.h4, h4 {
+    font-size: 1.5rem;
+  }
+  
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2; }
+  
+  
+.navbar-toggler{
+    background-color:#FEC503;
+}
+.jumbotron{
+    background-color: #E5E5E5;;
+}
+section{
+    background-color: #E5E5E5;
+}
+/* projects */
+.projects {
+    padding: var(--padding);
+    background-color: var(--whitesmoke);
+}
+
+.projects .row {
+    margin-top: 60px;
+}
+
+.projects .row .project-container {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.projects .row .project-container .child {
+    background-color: var(--white);
+    padding: 10px 10px 20px 10px;
+    border-radius: 5px;
+    width: 98%;
+}
+
+.projects .row .project-container .project-img {
+    height: 40vh;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.projects .row .project-container .project-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.projects .row .project-container .project-img span.tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 1000px;
+    padding: 10px;
+    font-size: 0.77rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #e6137c;
+    text-transform: capitalize;
+}
+
+.projects .row .project-container .details {
+    padding: 20px 15px;
+}
+
+.projects .row .project-container .details span {
+    font-weight: 500;
+    font-size: 0.88rem;
+    letter-spacing: 1px;
+    color: var(--secondary);
+    text-transform: uppercase;
+}
+
+.projects .row .project-container .details h4 {
+    text-transform: capitalize;
+    font-weight: 700;
+    color: var(--black);
+    font-size: 1.2em;
+}
+
+.projects .row .project-container .details p {
+    color: var(--par);
+    line-height: 25px;
+    font-size: 0.88rem;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.projects .row .project-container .details a {
+    text-transform: uppercase;
+    color: var(--ahref);
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+    transition: .2s ease-in-out;
+}
+
+.projects .row .project-container .details a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 2px;
+    width: 15%;
+    background-color: var(--ahref-line);
+    transition: all cubic-bezier(0.25, 0.1, 0.28, 1.54) 0.32s;
+}
+
+.projects .row .project-container .child:hover a::after {
+    width: 90%;
+    background-color: var(--ahref);
+}
+
+.projects .row .project-container .details a:hover {
+    color: var(--secondary);
+}
+
+.projects .row .project-container .details a:hover::after {
+    background-color: var(--secondary);
+}
+.project-container :hover{
+    background-color:var(--warning);
+
+}
+@media(max-width:520px){
+    .p{
+        font-family: 'Tangerine', cursive;
+        font-size:1.5rem;
+
+    }
+    p{
+        font-family: 'Oswald', sans-serif;
+        font-size:2rem;
+    }
+}
+@media(min-width:520px)and (max-width:768px){
+    .p,p{
+        font-family: 'Oswald', sans-serif;
+        font-size:2.5rem;
+    }
+}
+@media(min-width:768px)and (max-width:992px){
+    .p,p{
+        font-family: 'Oswald', sans-serif;
+        font-size:3.2rem;
+    }
+}
+@media(min-width:992px)and (max-width:1200px){
+    .p,p{
+        font-family: 'Oswald', sans-serif;
+            font-size:3.8rem;
+        }
+}
+@media(min-width:1200px){
+    .p,p{
+      font-family: 'Oswald', sans-serif;
+        font-size:4.2rem;
+    }
+}
+/* footer */
+ footer{
+        background-color: #212529;
+        color:var(--primary);
+    }
+/* animation */
+#one{
+    animation:glisseone 2s infinite alternate;
+}
+#four{
+  animation:glissefour 2s  infinite alternate;
+}
+#two{
+  animation:glisseone 2s infinite alternate;
+}
+#three{
+animation:glissefour 2s  infinite alternate;
+}
+
+@keyframes glisseone{
+  0%{
+      transform: translateX(0)
+  }
+  100%{
+      transform: translateX(72.5px)
+  }
+}
+@keyframes glissefour{
+  0%{
+      transform: translateX(0)
+  }
+  100%{
+      transform: translateX(-74.5px)
+  }
+}
+.bg{
+    background-color: var(--white);
+}
+/* font */
