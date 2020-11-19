@@ -81,8 +81,19 @@ html {
     position: relative;
     top:70px;
 }
-
+footer{
+    width:100%;
+    left:0%;
+    right:0%;
+    height:40%;
+}
 @media(max-width:576px){
+    footer{
+        position: absolute;
+        bottom: -730%;
+        background-color: #212529;
+        color:var(--primary);
+    }
     #activites{
         position: absolute;
         top:350%;
@@ -163,6 +174,12 @@ html {
     }
 }
 @media(min-width:576px)and (max-width:769px){
+    footer{
+        position: absolute;
+        bottom: -730%;
+        background-color: #212529;
+        color:var(--primary)s
+    }
     #activites{
         position: absolute;
         top:350%;
@@ -236,6 +253,12 @@ html {
     }
 }  
 @media(min-width:768px)and (max-width:992px){
+    footer{
+        position: absolute;
+        bottom: -730%;
+        background-color: #212529;
+        color:var(--primary);
+    }
     #activites{
         position: absolute;
         top:350%;
@@ -308,6 +331,12 @@ html {
     }
 } 
 @media(min-width:992px)and (max-width:1200px){
+    footer{
+        position: absolute;
+        bottom: -730%;
+        background-color: #212529;
+        color:var(--primary);
+    }
     #activites{
         position: absolute;
         top:240%;
@@ -385,6 +414,12 @@ html {
     }
 }
 @media(min-width:1200px){
+    footer{
+        position: absolute;
+        bottom: -550%;
+        background-color: #212529;
+        color:var(--primary);
+    }
     #activites{
         position: absolute;
         top:320%;
@@ -640,3 +675,4 @@ nav{
     background-color:var(--warning);
 
 }
+/* footer */
