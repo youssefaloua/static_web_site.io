@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
-
 body {
     margin: 0;
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
@@ -34,6 +33,12 @@ body {
     --danger: #dc3545;
     --light: #f8f9fa;
     --dark: #343a40;
+    --ahref: #0097F7;
+    --ahref-line: #9bd9ff;
+    --padding: 100px 0 100px 0;
+    --transition: .3s ease-in-out;
+    --shadow: 0 20px 20px rgba(13, 121, 221, 0.185);
+    --shadow02: 0 20px 20px rgba(221, 13, 169, 0.185);
     --breakpoint-xs: 0;
     --breakpoint-sm: 576px;
     --breakpoint-md: 768px;
@@ -71,14 +76,40 @@ html {
     position:absolute;
     top:calc(8% + 500px);
 }
-#tools{
-    position: absolute;
-    top:1390px;
-    background-color: #E5E5E5;
-    width:100%;
-    height:100%;
+
+#serv{
+    position: relative;
+    top:70px;
 }
+
 @media(max-width:576px){
+    #activites{
+        position: absolute;
+        top:350%;
+    }
+    #tools-title{
+        position: relative;
+        top:-100px;
+    }
+    #tools{
+        position: absolute;
+        top:1750px;
+        background-color: #E5E5E5;
+        width:100%;
+        height:100%;
+    }
+    #reactimg{
+        position: relative;
+        top:0px;
+    }
+    #react-title{
+        position: relative;
+        top:20px;
+    }
+    svg{
+        width:240px;
+        height:240px;
+    }
     .navbar-toggler{
         position: relative;
         left:0px;}
@@ -96,20 +127,20 @@ html {
     }
     header{
         position: absolute;
-        top:40%;
+        top:45%;
         right:1%;
         left:1%;
         width:100%;
-        height:72%;
+        height:322%;
         background-color: #E5E5E5;
     }
     .services-title{
-        font-size:3rem;
+        font-size:4rem;
         position: absolute;
-        top:0px;
+        top:0%;
         justify-content: center;
         text-align: center;
-        left:20%;
+        left:32%;
     }
     .services-subtitle{
         font-family: 'Tangerine', cursive;
@@ -132,6 +163,29 @@ html {
     }
 }
 @media(min-width:576px)and (max-width:769px){
+    #activites{
+        position: absolute;
+        top:350%;
+    }
+    #tools-title{
+        position: relative;
+        top:-100px;
+    }
+    #tools{
+        position: absolute;
+        top:1750px;
+        background-color: #E5E5E5;
+        width:100%;
+        height:100%;
+    }
+    #reactimg{
+        position: relative;
+        top:-10px;
+    }
+    #react-title{
+        position: relative;
+        top:0px;
+    }
     .navitem{font-size:2.2rem}
     .carousel-caption{
         position: absolute;
@@ -150,7 +204,7 @@ html {
         right:1%;
         left:1%;
         width:100%;
-        height:72%;
+        height:322%;
         background-color: #E5E5E5;
     }
     .services-title{
@@ -182,6 +236,29 @@ html {
     }
 }  
 @media(min-width:768px)and (max-width:992px){
+    #activites{
+        position: absolute;
+        top:350%;
+    }
+    #tools-title{
+        position: relative;
+        top:-30px;
+    }
+    #tools{
+        position: absolute;
+        top:1850px;
+        background-color: #E5E5E5;
+        width:100%;
+        height:100%;
+    }
+    #reactimg{
+        position: relative;
+        top:-10px;
+    }
+    #react-title{
+        position: relative;
+        top:50px;
+    }
     .navitem{font-size:2.8rem}
     .carousel-caption{
         position: absolute;
@@ -195,11 +272,11 @@ html {
 
     header{
         position: absolute;
-        top:80%;
+        top:70%;
         right:1%;
         left:1%;
         width:100%;
-        height:72%;
+        height:322%;
         background-color: #E5E5E5;
     }
     .services-title{
@@ -231,6 +308,35 @@ html {
     }
 } 
 @media(min-width:992px)and (max-width:1200px){
+    #activites{
+        position: absolute;
+        top:240%;
+    }
+    #tools-title{
+        position: relative;
+        top:-100px;
+    }
+    #tools{
+        position: absolute;
+        top:1450px;
+        background-color: #E5E5E5;
+        width:100%;
+        height:100%;
+    }
+    #reactimg{
+        position: relative;
+        top:30px;
+        left:200px;
+    }
+    #react-title{
+        position: relative;
+        top:120px;
+        left:100px;
+    }
+    #flutter-title{
+        position: relative;
+        left:50px;
+    }
     .navitem{font-size:3.2rem;}
     .carousel-caption{
         position: absolute;
@@ -247,7 +353,7 @@ html {
         right:1%;
         left:1%;
         width:100%;
-        height:72%;
+        height:162%;
         background-color: #E5E5E5;
     }
     .services-title{
@@ -279,6 +385,30 @@ html {
     }
 }
 @media(min-width:1200px){
+    #activites{
+        position: absolute;
+        top:320%;
+    }
+    #tools-title{
+        position: relative;
+        top:-100px;
+    }
+    #tools{
+        position: absolute;
+        top:1250px;
+        background-color: #E5E5E5;
+        width:100%;
+        height:100%;
+    }
+    #reactimg{
+        position: relative;
+        top:30px;
+        left:190px;
+    }
+    #react-title{
+        position: relative;
+        top:90px;
+    }
     .navitem{font-size:3.2rem;}
     .carousel-caption{
         position: absolute;
@@ -296,7 +426,7 @@ html {
         right:1%;
         left:1%;
         width:100%;
-        height:72%;
+        height:272%;
         background-color: #E5E5E5;
     }
     .services-title{
@@ -345,9 +475,6 @@ nav{
 #phone{
     animation : glisse 1s infinite alternate;
 }
-#one{
-
-}
 @keyframes glisse{
     0%{
         transform: translateY(0)
@@ -385,9 +512,7 @@ nav{
         transform: translateX(-74.5px)
     }
   }
-#reactjs{
-    width:300px;
-    height:200px;
+#reactig{
     animation :rota 4s infinite alternate;
 }
 #flutt{
@@ -400,4 +525,118 @@ nav{
     to{
         transform: rotateZ(360deg);
     }
+}
+
+/* projects */
+.projects {
+    padding: var(--padding);
+    background-color: var(--whitesmoke);
+}
+
+.projects .row {
+    margin-top: 60px;
+}
+
+.projects .row .project-container {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.projects .row .project-container .child {
+    background-color: var(--white);
+    padding: 10px 10px 20px 10px;
+    border-radius: 5px;
+    width: 98%;
+}
+
+.projects .row .project-container .project-img {
+    height: 40vh;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.projects .row .project-container .project-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.projects .row .project-container .project-img span.tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 1000px;
+    padding: 10px;
+    font-size: 0.77rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #e6137c;
+    text-transform: capitalize;
+}
+
+.projects .row .project-container .details {
+    padding: 20px 15px;
+}
+
+.projects .row .project-container .details span {
+    font-weight: 500;
+    font-size: 0.88rem;
+    letter-spacing: 1px;
+    color: var(--secondary);
+    text-transform: uppercase;
+}
+
+.projects .row .project-container .details h4 {
+    text-transform: capitalize;
+    font-weight: 700;
+    color: var(--black);
+    font-size: 1.2em;
+}
+
+.projects .row .project-container .details p {
+    color: var(--par);
+    line-height: 25px;
+    font-size: 0.88rem;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.projects .row .project-container .details a {
+    text-transform: uppercase;
+    color: var(--ahref);
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+    transition: .2s ease-in-out;
+}
+
+.projects .row .project-container .details a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 2px;
+    width: 15%;
+    background-color: var(--ahref-line);
+    transition: all cubic-bezier(0.25, 0.1, 0.28, 1.54) 0.32s;
+}
+
+.projects .row .project-container .child:hover a::after {
+    width: 90%;
+    background-color: var(--ahref);
+}
+
+.projects .row .project-container .details a:hover {
+    color: var(--secondary);
+}
+
+.projects .row .project-container .details a:hover::after {
+    background-color: var(--secondary);
+}
+.project-container :hover{
+    background-color:var(--warning);
+
 }

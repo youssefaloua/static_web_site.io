@@ -14,6 +14,7 @@
    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
    <link rel="icon" type="img/svg" href="img/Logo_plateau.png">
+   <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
     <title>Plateau:Societe de Devlepement Web et Mobile</title>
 </head>
 <body>
@@ -70,12 +71,12 @@
     </div>
       <header class="" id="services">
         <div class="container">
-            <div class="row">
-                <h1 class="services-title d-xs-none d-sm-none d-lg-none d-none" style="position:absolute;right:45%;top:-20%;">Nos Services</h1>
+            <div class="row row-content col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
+                <h1 class="services-title">Nos Services</h1>
             </div>
-            <div class="row row-content">
+            <div id="serv" class="row row-content">
               <div class="col-12 col-lg-4 align-self-start">
-                <svg width="367" height="235" viewBox="0 0 367 235" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="327" height="235" viewBox="0 0 367 235" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <rect width="367" height="235" fill="#E5E5E5"/>
                   <g id="devices 1" clip-path="url(#clip0)">
                   <path id="Vector" d="M174.116 233.886H252.13C255.21 233.886 255.215 227.041 252.13 227.041H174.116C171.036 227.041 171.031 233.886 174.116 233.886Z" fill="#E6E6E6"/>
@@ -211,14 +212,13 @@
             </div>
           </div>
       </header>
-      <section id="tools">
-      <div class="container">
+      <div id="tools" class="container-fluid">
+        <div class="row row-content col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
+          <h1 id="tools-title" class="services-title">Nos Outiles:</h1>
+        </div>
         <div class="row row-content">
           <div class="col-12 col-lg-4">
-            <img src="img/react.png" id="reactjs" alt="">              
-          </div>
-          <div class="col-12 col-lg-4">
-            <svg width="268" height="283" viewBox="0 0 268 283" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="228" height="243" viewBox="0 0 268 283" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect width="268" height="283" fill="#E5E5E5"/>
               <g id="flutter 1">
               <path id="Vector" d="M209.299 278.369L205.288 278.369L203.379 259.132L209.3 259.132L209.299 278.369Z" fill="#FFB8B8"/>
@@ -259,7 +259,7 @@
               </linearGradient>
               </defs>
               </svg>
-              
+              <h1>Flutter:application on Android et IOS</h1>
           </div>
           <div class="col-12 col-lg-4">
             <svg width="309" height="279" viewBox="0 0 309 279" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -295,11 +295,135 @@
               <path id="Vector_28" d="M132.162 163.84C132.162 163.84 125.433 120.745 144.36 119.537C163.287 118.329 190.205 119.537 190.205 119.537C190.205 119.537 205.767 118.329 201.141 163.84C201.141 163.84 205.347 177.131 167.493 175.922C129.639 174.714 132.162 163.84 132.162 163.84Z" fill="#6C63FF"/>
               </g>
               </svg>
-              
+              <div id="flutter-title">
+                <h1>Laravel:Fremwork Web:Server-Side</h1>
+              </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <img src="img/react.png"  id="reactimg" alt="">  
+            <div id="react-title">
+              <h1 id="">React:Js-Native:Web Et PWA</h1>  
+            </div>          
           </div>
         </div>
       </div>
-    </section>
+      
+    <section id="activites" class="projects">
+      <div class="my-container">
+          <div class="text-center">
+              <h2 class="title">Notre Activites</h2>
+              <p class="title-p">
+                  Visite nous 
+              </p>
+              <div class="row">
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-left project-container">
+                      <div class="child">
+                          <div class="project-img">
+                              <img src="img/Catalogue Plateau3 instag.jpg" alt="fresh food mobile app ui">
+                          </div>
+
+                          <div class="details">
+                              <span>Fornutaires</span>
+                              <h4>tout -produit </h4>
+                              <p> Tout les bosion pour les etudients </p>
+                              <a  target="_blank">live preview 🔥</a>
+                          </div>
+                      </div>
+                  </div>
+
+
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-left project-container">
+                      <div class="child">
+                          <div class="project-img">
+                              <img src="img/Catalogue Plateau7 ins.jpg" alt="plateau">
+                          </div>
+
+                          <div class="details">
+                              <span>Porduit Techno</span>
+                              <h4>Schooly -education Outiles</h4>
+                              <p>Cree Votre envirenement D'education parfait a l'aide de nos produits</p>
+                              <a>live preview 🔥</a>
+                          </div>
+                      </div>
+                  </div>
+
+
+
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-left project-container">
+                      <div class="child">
+                          <div class="project-img">
+                              <img src="img/Catalogue Plateau12 instag.jpg" alt="platform">
+                          </div>
+
+                          <div class=" details">
+                              <span>Impression</span>
+                              <h4>Impression On tout produit </h4>
+                              <p>Cree Votre Marke realise tes idees
+                              </p>
+                              <a> live preview 🔥</a>
+                          </div>
+                      </div>
+                  </div>
+
+
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-left project-container">
+                      <div class="child">
+                          <div class="project-img">
+                              <img src="img/Catalogue Plateau8 inst.jpg" alt="Logisticsolutions">
+                          </div>
+
+                          <div class="details">
+                              <span>Securite</span>
+                              <h4>Eleve La sucrete </h4>
+                              <p>Tout apropos la securites
+                              </p>
+                              <a >live preview 🔥</a>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-left project-container">
+                      <div class="child">
+                          <div class="project-img">
+                              <img src="img/Catalogue Plateau insta.jpg" alt="social media website design">
+                              <span class="tag">
+                                  Tout Sur Bureautique
+                              </span>
+                          </div>
+
+                          <div class="details">
+                              <span>Bureautique</span>
+                              <h4>Achtez Un Bureau spcial pour toi</h4>
+                              <p>Cree tout ce que tu veut
+                              </p>
+                              <a target="_blank">Vistez Nous
+                                  🎉</a>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-left project-container">
+                      <div class="child">
+                          <div class="project-img">
+                              <img src="img/Catalogue Plateau4 insta.jpg" alt="colorful music player mobile app ui">
+                              <span class="tag">
+                                 Education
+                              </span>
+                          </div>
+
+                          <div class="details">
+                              <span>Pin </span>
+                              <h4>Vient Chez nous </h4>
+                              <p>vistez nous </p>
+                              <a >free </a>
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+  </section>
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
