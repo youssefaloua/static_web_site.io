@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
 :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -76,9 +77,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif;
     color:var(--warning)
   }
-p{
-    font-family: ;
-}
   
 .h4, h4 {
     font-size: 1.5rem;
@@ -214,7 +212,7 @@ section{
 }
 @media(max-width:520px){
     .p{
-        font-family: 'Tangerine', cursive;
+        font-family: 'Lobster', cursive;
         font-size:1.5rem;
 
     }
