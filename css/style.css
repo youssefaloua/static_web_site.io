@@ -97,6 +97,8 @@ h1, h2, h3, h4, h5, h6 {
 section{
     background-color: #E5E5E5;
 }
+#activites{
+    background-color: #E5E5E5;}
 /* projects */
 .projects {
     padding: var(--padding);
