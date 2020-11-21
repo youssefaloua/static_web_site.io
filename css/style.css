@@ -65,6 +65,7 @@ a {
 body{
     padding:50px 0px 0px 0px;
     z-index:0;
+    background-color: white;
 }
 li a{
     color:#FEC503;
@@ -96,6 +97,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 section{
     background-color: #E5E5E5;
+    margin-top:20px;
+    margin-bottom: 10px;
 }
 #activites{
     background-color: #E5E5E5;}
@@ -222,23 +225,43 @@ section{
         font-family: 'Oswald', sans-serif;
         font-size:2rem;
     }
+    .service-container{
+        border-top:2px solid black;
+    }
+    .last{position: relative;left:38%; }
 }
 @media(min-width:520px)and (max-width:768px){
     .p,p{
         font-family: 'Oswald', sans-serif;
         font-size:2.5rem;
     }
+    .service-container{
+        border-top:2px solid black;
+        padding:2px;
+    }
+    .last{position: relative;left:38%; }
 }
 @media(min-width:768px)and (max-width:992px){
     .p,p{
         font-family: 'Oswald', sans-serif;
         font-size:3.2rem;
     }
+    .service-container{
+        border-top:2px solid black;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .last{position: relative;left:28%; }
 }
 @media(min-width:992px)and (max-width:1200px){
     .p,p{
         font-family: 'Oswald', sans-serif;
             font-size:3.8rem;
+        }
+        .service-container,.service-container1{
+            border-top:2px solid black;
+            margin-top: 20px;
+            margin-bottom: 40px;
         }
 }
 @media(min-width:1200px){
@@ -246,7 +269,31 @@ section{
       font-family: 'Oswald', sans-serif;
         font-size:4.2rem;
     }
+    .service-container, .service-container1{
+        border-top:2px solid black;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .last{position: relative;left:30%; }
 }
+/* maps */
+#google-maps{
+    width:80%;
+}
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
 /* footer */
  footer{
         background-color: #212529;
@@ -265,8 +312,6 @@ section{
 #three{
 animation:glissefour 2s  infinite alternate;
 }
-#movephones{
-    animation:glisse 2s infinite alternate;}
 @keyframes glisse{
     0%{
         transform: translateY(0)
@@ -296,3 +341,11 @@ animation:glissefour 2s  infinite alternate;
     background-color: var(--white);
 }
 /* font */
+.title{
+    font-size:3rem;
+    font-family: Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif;}
+    .title-p{
+        color:black;
+        font-family: 'Lobster', cursive;
+    font-size:2.2rem;}
+    

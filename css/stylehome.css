@@ -505,19 +505,7 @@ nav{
     height:8%;
 }
 /* animation */
-#movephones{
-    animation:glisse 2s infinite alternate;}
-#phone{
-    animation : glisse 1s infinite alternate;
-}
-@keyframes glisse{
-    0%{
-        transform: translateY(0)
-    }
-    100%{
-        transform: translateX(60px)
-    }
-  }
+
   #one{
       animation:glisseone 2s infinite alternate;
   }
@@ -676,3 +664,7 @@ nav{
 
 }
 /* footer */
+.service-container{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
